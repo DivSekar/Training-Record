@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes>{"fieldListExperienceProperties":"[\"record_fields\"]","playbookFormProperties":"","declarativeModel":"","parentTable":"@context.props.parentTable","playbookExperienceId":"@context.props.playbookExperienceId","fillContainer":"@context.props.fillContainer","declarativeActions":"","parentRecord":"@context.props.parentRecord","attachmentsProperties":"","associatedRecord":"@context.props.associatedRecord","laneContext":"@context.props.laneContext","knowledgeArticle":"","advanced":"@context.props.advanced","hasSufficientData":"@state.hasSufficientData","listProperties":"","prioritized":"@context.props.prioritized","activityDefinitionId":"@context.props.activityDefinitionId","formFieldItems":"@state.formFieldItems","playbookCardProperties":"","configProperties":"@context.props.configProperties","playbookContext":"@context.props.playbookContext","assignedTo":"@context.props.assignedTo","fieldListProperties":"","associatedTable":"@context.props.associatedTable","activityState":"@context.props.activityState","formFieldsRequired":"@state.formFieldsRequired","experienceProperties":"@context.props.experienceProperties","activityLabel":"@context.props.activityLabel"}</action_attributes>
+        <action_name>launch_assessment</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>tertiary</button_type>
+        <client_action display_value="Playbook Link to Destination">4c596abbc3230110a30a04186e40dd75</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode display_value="Button">928532675b4000101a6d7c1bf481c7db</declarative_action_render_mode>
+        <declarative_action_type>server_script</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon display_value="activity-fill">activity_fill</design_icon>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>contexual_sidebar</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Launch Assessment</label>
+        <model display_value="Playbook Card">ca57d12e730333004a905ee515f6a7b2</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>0</order>
+        <payload_map>external=https://www.google.com^title=Link^EQ</payload_map>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script><![CDATA[url = "https://www.google.com";
+$window.open(url);]]></server_script>
+        <specificity>1</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-10 17:02:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>88ce2bd497f2ad10f294b998c253af23</sys_id>
+        <sys_mod_count>27</sys_mod_count>
+        <sys_name>launch_assessment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Training Record" source="x_306761_training">5ee7579c97f2e910f294b998c253afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Record">5ee7579c97f2e910f294b998c253afca</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_88ce2bd497f2ad10f294b998c253af23</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 06:28:27</sys_updated_on>
+        <table>global</table>
+        <tooltip>Add note or comment</tooltip>
+        <ui_component display_value="sn-playbook-activity-ui-data-broker">1f3f4bf5973ff81a3496738884443bfd</ui_component>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+</record_update>
