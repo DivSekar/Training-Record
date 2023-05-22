@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{ }</macroponent_config>
+        <screen display_value="URL Redirection">a34c1ea8977e2590f294b998c253af13</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 05:47:05</sys_created_on>
+        <sys_id>c66e96ac97726590f294b998c253af49</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Training Record" source="x_306761_training">5ee7579c97f2e910f294b998c253afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Record">5ee7579c97f2e910f294b998c253afca</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_c66e96ac97726590f294b998c253af49</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 05:47:05</sys_updated_on>
+    </sys_uib_screen_test_values>
+</record_update>

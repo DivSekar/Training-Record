@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_type">
+    <sys_pd_activity_type action="INSERT_OR_UPDATE">
+        <color>#2A52BE</color>
+        <icon display_value="paperclip-outline">paperclip_outline</icon>
+        <name>URL Redirection</name>
+        <sys_class_name>sys_pd_activity_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 05:37:37</sys_created_on>
+        <sys_id>64fbd620977e2590f294b998c253af83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>URL Redirection</sys_name>
+        <sys_package display_value="Training Record" source="x_306761_training">5ee7579c97f2e910f294b998c253afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Record">5ee7579c97f2e910f294b998c253afca</sys_scope>
+        <sys_update_name>sys_pd_activity_type_64fbd620977e2590f294b998c253af83</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 05:37:37</sys_updated_on>
+    </sys_pd_activity_type>
+</record_update>

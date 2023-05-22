@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="asmt_metric_type">
+    <asmt_metric_type action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <allow_public>false</allow_public>
+        <allow_retake>false</allow_retake>
+        <anonymize>false</anonymize>
+        <business_rule display_value="Auto business rule for Assessments">ce80722097b6e590f294b998c253aff4</business_rule>
+        <chat_survey>false</chat_survey>
+        <condition table="x_306761_training_training_records">state=in_progress^EQ<item display_value="In Progress" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="in_progress"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <default_filter>-- None --</default_filter>
+        <delete_business_rule display_value="Auto deletion rule for Assessments">da80b2e097b6e590f294b998c253af2b</delete_business_rule>
+        <description>ServiceNow Training Assessment</description>
+        <disable_ui_action/>
+        <display_all_filters>false</display_all_filters>
+        <display_field>none</display_field>
+        <duration>1970-01-03 00:00:00</duration>
+        <enable_ui_action/>
+        <end_note/>
+        <enforce_condition>false</enforce_condition>
+        <evaluation_method>assessment</evaluation_method>
+        <filter_condition/>
+        <filter_table>x_306761_training_training_records</filter_table>
+        <introduction/>
+        <job/>
+        <live_feed>true</live_feed>
+        <name>ServiceNow Assessment</name>
+        <not_show_intro_note>false</not_show_intro_note>
+        <notify_if_overdue>true</notify_if_overdue>
+        <notify_user>true</notify_user>
+        <one_click_survey>false</one_click_survey>
+        <overdue_notify_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</overdue_notify_user>
+        <portal_pagination>category</portal_pagination>
+        <publish_state>published</publish_state>
+        <roles/>
+        <sample_metric/>
+        <scale_factor>10</scale_factor>
+        <schedule_period>0</schedule_period>
+        <schedule_type>on_demand</schedule_type>
+        <scoring_type>percent</scoring_type>
+        <signature/>
+        <source_table/>
+        <survey_owners>6816f79cc0a8016401c5a33be04be441</survey_owners>
+        <sys_class_name>asmt_metric_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 07:06:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eadf62289736e590f294b998c253afff</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>ServiceNow Assessment</sys_name>
+        <sys_package display_value="Training Record" source="x_306761_training">5ee7579c97f2e910f294b998c253afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Record">5ee7579c97f2e910f294b998c253afca</sys_scope>
+        <sys_update_name>asmt_metric_type_eadf62289736e590f294b998c253afff</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-12 18:07:17</sys_updated_on>
+        <table>x_306761_training_training_records</table>
+        <url/>
+        <user_field/>
+        <user_field_business_rule/>
+    </asmt_metric_type>
+    <sys_translated_text action="delete_multiple" query="documentkey=eadf62289736e590f294b998c253afff"/>
+</record_update>

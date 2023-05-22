@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="URL Redirection">64fbd620977e2590f294b998c253af83</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <experience_display_preferences/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>URL Redirection</label>
+        <name>url_redirection</name>
+        <outputs/>
+        <source>c2cf63f553d020101f72ddeeff7b1256</source>
+        <source_type>sys_hub_action_type_definition</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 05:50:58</sys_created_on>
+        <sys_id>849e12e097b26590f294b998c253af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>URL Redirection</sys_name>
+        <sys_package display_value="Training Record" source="x_306761_training">5ee7579c97f2e910f294b998c253afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Record">5ee7579c97f2e910f294b998c253afca</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_849e12e097b26590f294b998c253af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 05:50:58</sys_updated_on>
+        <system_level>false</system_level>
+        <table>global</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=849e12e097b26590f294b998c253af8b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_c2cf63f553d020101f72ddeeff7b1256^id=849e12e097b26590f294b998c253af8b"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_output_c2cf63f553d020101f72ddeeff7b1256^id=849e12e097b26590f294b998c253af8b"/>
+</record_update>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="95b85f189776e910f294b998c253af55" label="Training Records" max_length="40" name="x_306761_training_training_records" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="New" sequence="1" value="new"/>
+                <element inactive_on_update="false" label="Assess" sequence="2" value="assess"/>
+                <element inactive_on_update="false" label="In Progress" sequence="3" value="in_progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="5" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Trainees" max_length="32" name="trainees" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Trainers" max_length="32" name="trainers" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="Training Batch" max_length="32" name="training_batch" reference="x_306761_provider_epdl" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="URL" max_length="1024" name="url" type="url"/>
+        <element label="Assessment URL" max_length="8000" name="x_306761_training_assessment_url" read_only="true" type="html"/>
+        <index name="index">
+            <element name="trainees"/>
+        </index>
+        <index name="index2">
+            <element name="trainers"/>
+        </index>
+        <index name="index3">
+            <element name="training_batch"/>
+        </index>
+    </element>
+</database>

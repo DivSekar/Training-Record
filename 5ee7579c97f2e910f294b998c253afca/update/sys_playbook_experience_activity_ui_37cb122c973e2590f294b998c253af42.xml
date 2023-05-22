@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_playbook_experience_activity_ui">
+    <sys_playbook_experience_activity_ui action="INSERT_OR_UPDATE">
+        <experience_type display_value="URL Redirection">64fbd620977e2590f294b998c253af83</experience_type>
+        <macroponent display_value="URL Redirection">e74c1ea8977e2590f294b998c253af0f</macroponent>
+        <name>URL Redirection</name>
+        <playbook_experience display_value="Global Playbook Experience">98e09a560f2200102920c912d4767e1a</playbook_experience>
+        <screen display_value="URL Redirection">a34c1ea8977e2590f294b998c253af13</screen>
+        <sys_class_name>sys_playbook_experience_activity_ui</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-11 05:37:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>37cb122c973e2590f294b998c253af42</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>URL Redirection</sys_name>
+        <sys_package display_value="Training Record" source="x_306761_training">5ee7579c97f2e910f294b998c253afca</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Training Record">5ee7579c97f2e910f294b998c253afca</sys_scope>
+        <sys_update_name>sys_playbook_experience_activity_ui_37cb122c973e2590f294b998c253af42</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-11 05:37:54</sys_updated_on>
+        <ui_template display_value="Default">0f3d316cff313010667053ea793bf150</ui_template>
+    </sys_playbook_experience_activity_ui>
+</record_update>
